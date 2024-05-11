@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Bebas'; /*a name to be used later*/
+    src: url('Fonts/BebasNeue-Regular.ttf'); /*URL to font*/
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+#bg {
+    
+    /* The image used */
+    background-image: url("img/galaxy3.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+        position: absolute;
+        font-family: "Bebas";
+        padding: 0;
+        margin: 0;
+        font-size: 200px;
+        color: white;
+        outline: 10px;
+        
+}
+#Hello{
+    left: 100px;
+
+    top: 0%;
+    text-align: left;
+}
+
+#Ivan{
+    right: 100px;
+    
+    top: 50%;
+    text-align: right;
+}
+
+/*position: absolute;
+font-style: normal;
+padding: 0;
+margin: 0;
+left: 0;
+top: 50%;
+color: white;
+
+transform: translateY(-50%);
+text-align: center;
+width: 100%;
+padding: 20px 0; */
